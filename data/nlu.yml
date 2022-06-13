@@ -9,22 +9,13 @@ nlu:
       - [Susan](name), susan@apple.com
       - Sure. It's [Fred Daniels](name). My email is [fred.d@apple.com](email).
 
-#- intent: greet
-#  examples: |
-#    - hey
-#    - hello
-#    - hi
-#    - hello there
-#    - good morning
-#    - good evening
-#    - moin
-#    - hey there
-#    - let's go
-#    - hey dude
-#    - goodmorning
-#    - goodevening
-#    - good afternoon
-#
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+
 #- intent: goodbye
 #  examples: |
 #    - cu
