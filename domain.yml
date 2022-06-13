@@ -1,10 +1,24 @@
 version: "3.1"
 
+intents:
+  - greet
+  - supply_contact_info
+
+entities:
+  - name
+  - email
+
 slots:
   name:
     type: text
+    mappings:
+      - type: from_entity
+        entity: name
   email:
     type: text
+    mappings:
+      - type: from_entity
+        entity: email
 
 responses:
   utter_ask_for_contact_info:
